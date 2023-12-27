@@ -27,6 +27,7 @@ email.test
 - un número de teléfono (español)
 let telefono = (\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}
 - un DNI
+let dni = 	[0-9] {8} [AZ] {1}
 
 ## Ejercicio 2:
 
