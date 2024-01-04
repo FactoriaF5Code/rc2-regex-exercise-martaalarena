@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="">
+        <label>Formulario de contacto</label>
+        <input type="text" value="Nombre" pattern="[aA-zZ]" title="Nombre">
+        <input type="text" value="Apellidos" pattern="[aA-zZ]">
+        <input type="text" value="DNI" pattern="[0-9] {8} [AZ] {1}" title="documento nacional de identidad">
+        <input type="text" value="Número de teléfono" pattern="(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}">
+        <input type="text" value="Email" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}">
+        <input type="text" value="Dirección" pattern="[aA-zZ0-9]">
+        <input type="submit">
+    </form>
+</body>
+
+</html>
